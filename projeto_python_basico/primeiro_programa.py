@@ -1,8 +1,15 @@
-#Meu primeiro programa em Python - Usando uma linha
+#Brincando no meu primeiro programa em Python - Usando uma linha
 """Meu primeiro programa
 em Python - Usando mais de uma linha"""
 
 print("Hello world")
+
+nome = input("Qual o seu nome? ") #Semelhante ao scanf em C, mas não precisa usar o print para solicitar e ler
+print(f"Seu nome é: {nome}")
+
+numero1 = eval(input("Entre com um número inteiro: "))
+mumero1 = numero1 + 1
+print(f"A soma é: {numero1}")
 
 
 def multiplicador(numero):
