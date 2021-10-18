@@ -1,0 +1,6 @@
+#print(123456)
+#print("Adriano", "Costa", "Outra coisa")
+#print('Adriano', 'Costa', sep='_', end='#####')
+#print('João', 'e', 'Maria', sep='_', end='')
+print('807', '368', '824', sep='.', end='-')
+print('72')
